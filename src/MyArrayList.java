@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class MyArrayList <E> {
 	private int size = 0;
 	private static final int DEFAULT_CAPACITY = 10;
@@ -89,13 +87,4 @@ public class MyArrayList <E> {
 		}
 		size = 0;
 	}
-
-//	@Override
-//	public Object clone() {
-//		MyArrayList<E> clone = new MyArrayList<>(size);
-//		for (int i = 0; i < size; i++) {
-//			clone.elements[i] = ((E) elements[i]).clone();
-//		}
-//		return clone;
-//	}
 }
