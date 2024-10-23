@@ -27,5 +27,8 @@ public class MyArrayListTest {
 		System.out.println("-----After remove element " + removeElement + "-----");
 		System.out.println("List2 contain element 30? " + myList2.contains(30));
 		System.out.println("Index of element 30: " + myList2.indexOf(30));
+		for (int i = 0; i < myList2.size(); i++) {
+			System.out.println(myList2.get(i));
+		}
 	}
 }

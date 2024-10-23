@@ -33,6 +33,8 @@ public class MyArrayList <E> {
 		for (int i = index; i < size - 1; i++) {
 			elements[i] = elements[i + 1];
 		}
+		elements[size - 1] = null;
+		size--;
 		return temp;
 	}
 
